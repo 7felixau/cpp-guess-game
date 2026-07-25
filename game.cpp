@@ -19,3 +19,10 @@ int main() {
         if (guess > secret) {
             std::cout << "Too high! Try again." << std::endl;
         } else if (guess < secret) {
+            std::cout << "Too low! Try again." << std::endl;
+        } else {
+            std::cout << "Congratulations! You guessed it in " << attempts << " attempts." << std::endl;
+        }
+    }
+    return 0;
+}
